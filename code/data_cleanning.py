@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 # import seaborn as sns
 from scipy.stats import f
 import turtle as t
+import os ,sys
 
 from pandas.core.reshape import encoding
 from statsmodels.multivariate.manova import MANOVA
@@ -38,10 +39,23 @@ TEXT_MUTED     = "#94a3b8"
 
 # 1. Cấu hình đường dẫn đọc file và xuất kết quả
 ROOT = Path("../data/DATA.xlsx")
-if not ROOT.exists():
-    ROOT = Path("data/DATA.xlsx")
-if not ROOT.exists():
-    ROOT = Path("DATA.xlsx")
+try:
+    if not os.path.exists(ROOT.resolve()):
+        print(f"FILE: Không tồn tại {ROOT.resolve()}")
+        sys.exit(1)
+    thoat_file = os.path.splitext(ROOT.resolve())[0].lower()
+    try:
+        if thoat_file == ".csv":
+            df = pd.read_csv(ROOT.resolve(), encoding="utf-8", sep=";")
+        else:
+            df = pd.read_excel(ROOT, sheet_name="DATA GỐC")
+            df.column = df.column.str.strip() # Loại bỏ khoảng trắng
+    except Exception as e:
+        print(f"Lỗi khi đọc file: {e}")
+
+except FileNotFoundError:
+    print("Không tìm thấy file: ", ROOT.resolve())
+    sys.exit(1)
 
 # Kiểm tra sự tồn tại của file trước khi đọc
 if not ROOT.exists():
