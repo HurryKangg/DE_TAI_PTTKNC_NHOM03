@@ -103,8 +103,8 @@ Xem toàn bộ biểu đồ và tóm tắt thống kê tại thư mục output/.
 | STT | Mã Sinh Viên | Họ và Tên | Vai Trò | Nhiệm Vụ Phụ Trách | Đánh Giá (%) |
 |:---:|:------------:|:----------|:-------:|:-------------------|:------------:|
 | 01 | 2045250095 | Huỳnh Võ Anh Khang | Trưởng nhóm | Quản lý dự án, Code fix mã nguồn data,soạn văn bản README.md,kết luận và đưa ra nhận xét | 17% |
-| 02 | 20425250199 | Tăng Thành Trí | Thành viên | Xử lý tổng hợp nội dung để báo cáo word | 17% |
-| 03 | 20425250066 | Nguyễn Minh Hiền | Thành viên | Tóm tắt và giới thiệu đề tài báo cáo dữ liệu và thiết kế phân tích | 16% |
-| 04 | 20425250061 | Liêu Hồ Gia Hân | Thành viên | Kết quả nghiên cứu thông qua phân tích dữ liệu | 17% |
-| 05 | 20425250156 | Lý Hữu Phước | Thành viên | Code mô phỏng data xử lý hệ thống nguồn data_clean, vẽ biểu đồ và số liệu thống kê  | 17% |
+| 02 | 2045250199 | Tăng Thành Trí | Thành viên | Xử lý tổng hợp nội dung để báo cáo word | 17% |
+| 03 | 2045250066 | Nguyễn Minh Hiền | Thành viên | Tóm tắt và giới thiệu đề tài báo cáo dữ liệu và thiết kế phân tích | 16% |
+| 04 | 2045250061 | Liêu Hồ Gia Hân | Thành viên | Kết quả nghiên cứu thông qua phân tích dữ liệu | 17% |
+| 05 | 2045250156 | Lý Hữu Phước | Thành viên | Code mô phỏng data xử lý hệ thống nguồn data_clean, vẽ biểu đồ và số liệu thống kê  | 17% |
 | 06 | 2045250187 | Trần Minh Thông | Thành viên | Phương pháp nghiên cứu thống kê trực quan hệ thống phân tích dữ liệu | 16% | 
