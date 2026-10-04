@@ -59,6 +59,7 @@ Nhom03_PTTKNC
 │   │   ├── demo_Ngoại Khóa.png
 │   │   └── demo_Việc Làm.png
 ├── report
+│    └── Nhom03_MANOVA.docx
 └── README.md
 ```
 ### 5. Cài đặt và Hướng dẫn thực thi
